@@ -1,5 +1,5 @@
-import React from "react"
-import Logo from "../../Assets/img/Logo.png"
+import React from "react";
+import Logo from "../../Assets/img/Logo.png";
 
 export default function Modal({ setModalShow }) {
   return (
@@ -29,6 +29,18 @@ export default function Modal({ setModalShow }) {
           Online <span></span>
         </p>
       </a>
+      <a
+        className="down-content"
+        href="https://wa.me/message/08983175756"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={Logo} alt="logo" />
+        <p>Sarang Maduku Malang</p>
+        <p>
+          Online <span></span>
+        </p>
+      </a>
     </div>
-  )
+  );
 }
